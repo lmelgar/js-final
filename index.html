@@ -1,0 +1,42 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1;" />
+  <link media="screen" href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="api-container">
+
+    <h1 id="title">What are the members of the Congress saying about <span id='h1-span'>taxes</span></h1>
+
+    <div id="search-area">
+      <input id="search" placeholder="What you're looking for" autocomplete="off"/>
+      <input id="state" placeholder="State (abbreviation)" autocomplete="off"/> <button id="search-button">Submit</button>
+    </div>
+
+    <p id='text-intro'></p>
+
+    <div id="selection">
+      <div id="clean-filter">WA</div>
+      <div id="close-this">&times;</div>
+    </div>
+
+
+    <p id='results-number'></p>
+
+
+    <div id="each-text"></div>
+
+
+    <div id="btn">
+      <button id='api-button'>Older</button>
+    </div>
+  </div>
+  
+  <script src="config.js"></script>
+  <script src="congress-api.js"></script>
+</body>
+</html>

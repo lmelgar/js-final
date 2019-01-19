@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700');
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.7;
+  color: #686767;
+
+}
+
+#api-container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+#search-area {
+  margin-bottom: 40px;
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  padding: 0 7px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input#search {
+  margin-right: 15px;
+}
+
+#btn {
+  width: 100%;
+}
+
+button#api-button {
+  margin: 10px auto 20px auto;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px black solid;
+  color: black;
+  font-size: 16px;
+  cursor: crosshair;
+  display: block;
+}
+
+button#api-button:hover {
+  background: black;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button#search-button {
+  margin-left: 7px;
+  cursor: crosshair;
+  height: 40px;
+  padding: 0px 10px;
+  vertical-align: top;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+}
+
+button#search-button:hover {
+  background: black;
+  color: white;
+  border: 1px white solid;
+}
+
+.announcement {
+  width:100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  padding: 15px 30px 25px 30px;
+  background-color: #F2F2EF;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.announcement:nth-of-type(3n) {
+  margin-right: 0px;
+}
+
+div#selection {
+  display: none;
+}
+
+div#clean-filter {
+  margin-bottom: 10px;
+  width: 20px;
+  background-color: #F2F2EF;
+  padding: 5px 9px;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+div#close-this {
+  max-width: 10px;
+  padding: 5px 7px;
+  background-color: #F2F2EF;
+  display: inline-block;
+  margin-left: -6px;
+  cursor: pointer;
+}
+
+div#close-this:hover {
+  background: #cecece;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+.p-title {
+  text-transform: capitalize;
+}
+
+.p-name {
+  color: #2C2C2C;
+  margin-bottom: 0px;
+}
+
+.p-name > span {
+  font-size: 17px;
+  font-weight: bold;
+  color: #2C2C2C;
+}
+
+p#text-intro {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+p#results-number {
+
+}
+
+.p-date {
+  font-size: 15px;
+  text-align: right;
+  border-bottom: 5px #FEC200 solid;
+  max-width: 85px;
+
+}
+
+.p-party-chamber {
+  margin-top: 0px;
+}
+
+.p-type {
+  text-align: left;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: black;
+  background: #FEC200;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+span#h1-span {
+  background: #FEC200;
+  color: black;
+  padding: 0px 5px;
+}
+
+span.R, span.D {
+  color: white;
+  font-weight: 400;
+  padding: 2px 6px;
+  margin-left: 4px;
+}
+
+span.D {
+  background-color: #232066;
+}
+
+span.R {
+  background-color: #E91D0E;
+}
